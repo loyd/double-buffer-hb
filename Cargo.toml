@@ -1,0 +1,8 @@
+[package]
+name = "double-buffer-hb"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# 0.2.3 unconditionally links a Windows library on Linux.
+membarrier = "=0.2.2"
